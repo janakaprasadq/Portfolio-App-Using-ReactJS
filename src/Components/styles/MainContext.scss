@@ -1,0 +1,40 @@
+.maincontext {
+  background-color: #d4f6ff; // Choose your preferred color code here
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mainWelcome {
+  display: flex;
+  align-items: left;
+  flex-direction: column;
+  padding: 30px;
+}
+
+.intro {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+
+  .proPic {
+    padding-left: 30px;
+
+    img {
+      width: 250px;
+      border-radius: 50%;
+    }
+  }
+}
+
+.socialIcons {
+  display: flex;
+  gap: 15px; /* Spacing between icons */
+  margin-top: 20px;
+}
+
+.socialIcons a {
+  text-decoration: none; /* Remove underline */
+}

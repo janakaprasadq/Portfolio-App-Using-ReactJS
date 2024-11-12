@@ -10,7 +10,7 @@ function App() {
   return (
     <>
       <Router>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <nav class="navbar navbar-expand-lg custom-navbar">
           <div class="container-fluid">
             <a class="navbar-brand">Portfolio</a>
             <button
