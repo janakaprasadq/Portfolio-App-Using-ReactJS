@@ -1,3 +1,12 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faLinkedin,
+  faGithub,
+  faFacebook,
+  faTwitter,
+} from "@fortawesome/free-brands-svg-icons";
+import "./styles/Footer.scss";
+
 function Footer() {
   return (
     <footer className="footer">
@@ -5,22 +14,37 @@ function Footer() {
         <p>
           &copy; {new Date().getFullYear()} Janaka Prasad. All rights reserved.
         </p>
-        <div className="footer-links">
+
+        <div className="social-links">
           <a
-            href="https://github.com/username"
+            href="https://www.linkedin.com/in/janaka-prasad/"
             target="_blank"
             rel="noopener noreferrer"
           >
-            GitHub
+            <FontAwesomeIcon icon={faLinkedin} />
           </a>
           <a
-            href="https://linkedin.com/in/username"
+            className="gitIcon"
+            href="https://github.com/janakaprasadq"
             target="_blank"
             rel="noopener noreferrer"
           >
-            LinkedIn
+            <FontAwesomeIcon icon={faGithub} />
           </a>
-          <a href="mailto:email@example.com">Contact</a>
+          <a
+            href="https://web.facebook.com/JanakaPrasadWanigasooriya/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FontAwesomeIcon icon={faFacebook} />
+          </a>
+          <a
+            href="https://x.com/janakaprasad071"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FontAwesomeIcon icon={faTwitter} />
+          </a>
         </div>
       </div>
     </footer>
