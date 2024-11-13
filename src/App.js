@@ -2,9 +2,10 @@ import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import "./App.css";
 import Footer from "./Components/Footer";
 import MainContext from "./Components/MainContext";
-import About from "./Components/Header";
+//import About from "./Components/Header";
 import Projects from "./Components/Projects";
 import Contact from "./Components/Contact";
+import About from "./Components/About";
 
 function App() {
   return (
